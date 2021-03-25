@@ -1,0 +1,10 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTY3MTE5MDJ9.nxoqv_qLpZA5RGWB9wNhzS_spmN5VmuWArGq5YCBhck
+
+###
+POST http://localhost:3000/login
+Content-Type: "application/json"
+
+{
+    "username": "Igor"
+}
